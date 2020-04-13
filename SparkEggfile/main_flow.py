@@ -26,7 +26,7 @@ print ("Init Started From main_flow")
 def run():
     print('Calling inside run method')
 
-    path="s3://jyadav-euc/credits.csv"
+    path="s3://bucket/credits.csv"
 
     #Read Input files and set dataframe
     cast_crew_df = read_file(path,sc)

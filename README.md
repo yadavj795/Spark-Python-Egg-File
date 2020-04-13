@@ -26,4 +26,4 @@ This is article will demonstrate how to create python code packaging with egg fi
 
 ## how to run egg file:
 
-/usr/lib/spark/bin/spark-submit --master yarn --py-files s3://jyadav-euc/SparkEggfile-0.1-py2.7.egg s3://jyadav-euc/hackathon/driver.py
+/usr/lib/spark/bin/spark-submit --master yarn --py-files s3://bucket/SparkEggfile-0.1-py2.7.egg s3://bucket/driver.py
